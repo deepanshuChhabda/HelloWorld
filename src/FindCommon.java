@@ -25,7 +25,7 @@ class FindCommon {
 
 
                     }
-                    if (!k) System.out.println("regularly fancy");
+                    if (!k) System.out.println("regularly ");
                 }
             }
         } catch (Exception e) {
