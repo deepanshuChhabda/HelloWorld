@@ -16,17 +16,13 @@ class FindCommon {
                     System.out.println("Real Fancy");
                 else {
                     for (int i = 1; i < len - 3; ) {
-                        try {
-                            if (sen.charAt(i++) == ' ' && sen.charAt(i++) == 'n' && sen.charAt(i++) == 'o' && sen.charAt(i++) == 't' && sen.charAt(i) == ' ') {
+
+                        if (sen.charAt(i++) == ' ' && sen.charAt(i++) == 'n' && sen.charAt(i++) == 'o' && sen.charAt(i++) == 't' && sen.charAt(i) == ' ') {
                                 System.out.println("Real Fancy");
                                 k = true;
                                 break;
                             }
-                        } catch (IndexOutOfBoundsException e) {
-                            System.out.println("Real Fancy");
-                            k = true;
-                            break;
-                        }
+
 
                     }
                     if (!k) System.out.println("regularly fancy");
