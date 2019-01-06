@@ -7,7 +7,7 @@ class FindCommon {
         Scanner in = new Scanner(System.in);
         t = in.nextInt();
         in.nextLine();
-        try {
+
             while (t-- > 0) {
                 String sen = in.nextLine();
                 int len = sen.length();
@@ -25,12 +25,10 @@ class FindCommon {
 
 
                     }
-                    if (!k) System.out.println("regularly ");
+                    if (!k) System.out.println("regularly fancy");
                 }
             }
-        } catch (Exception e) {
 
-        }
 
     }
 }
